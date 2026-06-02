@@ -1,0 +1,81 @@
+# Sistema Simples em PHP
+
+## Nome do Projeto
+
+Sistema Simples em PHP
+
+## Objetivo da Aplicação
+
+Este projeto tem como objetivo criar um sistema simples de login utilizando PHP e MySQL. Nele é possível fazer login, cadastrar novos usuários, visualizar os usuários cadastrados e sair do sistema.
+
+## Tecnologias Utilizadas
+
+* PHP
+* MySQL
+* HTML
+* CSS
+
+## Estrutura Básica dos Arquivos
+
+```text
+ATIVIDADE-TESTE-1
+│
+├── infra
+│   ├── db
+│   └── redes
+│
+├── public
+│   ├── components
+│   ├── home.php
+│   └── logout.php
+│
+├── styles
+│   └── style.css
+│
+├── index.php
+│
+└── README.md
+```
+
+## Explicação Geral do Funcionamento
+
+Quando o usuário abre o sistema, ele encontra a tela de login. O PHP verifica se o usuário e a senha existem no banco de dados.
+
+Se os dados estiverem corretos, o usuário entra no sistema e é direcionado para a página principal. Nessa página é possível cadastrar novos usuários e visualizar os usuários já cadastrados.
+
+Também existe a opção de logout, que encerra a sessão e retorna para a tela de login.
+
+## Banco de Dados
+
+O sistema utiliza um banco de dados chamado **sistema_simples**.
+
+Tabela utilizada:
+
+**users**
+
+* id
+* username
+* password
+
+Usuário cadastrado para teste:
+
+* Usuário: admin
+* Senha: 123
+
+## Principais Aprendizados Obtidos
+
+Com este projeto foi possível aprender:
+
+* Como conectar o PHP ao MySQL.
+* Como criar formulários em HTML.
+* Como fazer login utilizando sessões.
+* Como cadastrar usuários no banco de dados.
+* Como listar informações em uma tabela.
+* Como organizar arquivos e pastas em um projeto.
+* Como utilizar CSS para melhorar a aparência das páginas.
+
+## Autor
+
+Hugo Ricardo Gramme
+
+Turma: DSM5
