@@ -1,12 +1,32 @@
+/* Seleciona a tag <nav> da página */
 nav{
+
+    /* Define o layout como Flexbox para facilitar o alinhamento dos elementos */
     display: flex;
+
+    /* Define a cor de fundo da barra de navegação */
     background-color: rgb(31, 31, 189);
+
+    /* Define a cor do texto dos elementos dentro da navbar */
     color: azure;
+
+    /* Centraliza os elementos horizontalmente */
     justify-content: center;
+
+    /* Centraliza os elementos verticalmente */
     align-items: center;
 }
+
+/* Seleciona o corpo principal da página */
 body{
+
+    /* Remove a margem padrão aplicada pelos navegadores */
     margin: 0;
+
+    /* Remove o espaçamento interno padrão */
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* Define a fonte principal utilizada em toda a página */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
