@@ -10,10 +10,10 @@ Este projeto tem como objetivo criar um sistema simples de login utilizando PHP 
 
 ## Tecnologias Utilizadas
 
-* PHP
-* MySQL
-* HTML
-* CSS
+- PHP
+- MySQL
+- HTML
+- CSS
 
 ## Estrutura Básica dos Arquivos
 
@@ -49,30 +49,26 @@ Também existe a opção de logout, que encerra a sessão e retorna para a tela 
 
 O sistema utiliza um banco de dados chamado **sistema_simples**.
 
-Tabela utilizada:
+Tabela utilizada: **users**
 
-**users**
-
-* id
-* username
-* password
+- id
+- username
+- password
 
 Usuário cadastrado para teste:
 
-* Usuário: admin
-* Senha: 123
+- Usuário: admin
+- Senha: 123
 
 ## Principais Aprendizados Obtidos
 
-Com este projeto foi possível aprender:
-
-* Como conectar o PHP ao MySQL.
-* Como criar formulários em HTML.
-* Como fazer login utilizando sessões.
-* Como cadastrar usuários no banco de dados.
-* Como listar informações em uma tabela.
-* Como organizar arquivos e pastas em um projeto.
-* Como utilizar CSS para melhorar a aparência das páginas.
+- Como conectar o PHP ao MySQL.
+- Como criar formulários em HTML.
+- Como fazer login utilizando sessões.
+- Como cadastrar usuários no banco de dados.
+- Como listar informações em uma tabela.
+- Como organizar arquivos e pastas em um projeto.
+- Como utilizar CSS para melhorar a aparência das páginas.
 
 ## Autor
 
